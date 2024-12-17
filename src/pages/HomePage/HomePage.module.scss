@@ -1,0 +1,30 @@
+@import "../../scss/colos.scss";
+
+.HomePage {
+  padding: 0 5vw;
+
+  .hero {
+    height: 100vh;
+    padding-top: 37vh;
+    border: 1px solid black;
+
+    .container {
+      width: 45vw;
+      border: 1px solid black;
+
+      .heading {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 66px;
+        letter-spacing: 1px;
+        color: $heading-blue;
+        margin-bottom: 20px;
+      }
+      .text {
+        font-size: 18px;
+        line-height: 30px;
+        color: $text-blue;
+      }
+    }
+  }
+}
