@@ -1,0 +1,44 @@
+@import "../../scss/colos.scss";
+
+.Feature {
+  border: 1px solid black;
+  height: 569px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .img {
+    width: 45%;
+  }
+  .info {
+    width: 31vw;
+
+    .heading2 {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 48px;
+      color: $heading-blue;
+      margin-bottom: 16px;
+    }
+    .text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      color: $text-blue;
+
+      &:first-of-type{
+        margin-bottom: 10px;
+      }
+    }
+    .btn{
+      margin-top: 40px;
+    }
+    .hidden{
+      display: none;
+    }
+  }
+}
+.margin{
+  margin-top: 24px;
+  margin-bottom: 47px;
+}
